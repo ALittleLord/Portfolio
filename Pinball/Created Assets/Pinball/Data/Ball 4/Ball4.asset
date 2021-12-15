@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78bce9059ad95aa4191851ede29c287a, type: 3}
+  m_Name: Ball4
+  m_EditorClassIdentifier: 
+  storeData: 0
+  baseMaterial: {fileID: 2100000, guid: 55c183dc45153be48a45c4e530127fb3, type: 2}
+  baseWeight: 0.1
+  valueStatPrefab: {fileID: 11400000, guid: bf86c0ba2b261b241b36bbf60c848a1c, type: 2}
+  valueStatActive: {fileID: 0}
