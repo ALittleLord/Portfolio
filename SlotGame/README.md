@@ -15,5 +15,5 @@ I have included SlotGame.exe that can be run to play the game, as well as my pro
  - Click Start
  - Pull Lever to spin slot
  - Click on tiles to select, and on characters to use when selected
- - Aura tiles affect adjacent tiles]
+ - Aura tiles affect adjacent tiles
  - At fight end pick a new tile and use a rest site to heal or continue to your next fight
