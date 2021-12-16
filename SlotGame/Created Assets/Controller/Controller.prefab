@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &689973740482610771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 689973740482610769}
+  - component: {fileID: 689973740482610770}
+  - component: {fileID: 8755439803232224380}
+  - component: {fileID: 4792693391258710820}
+  - component: {fileID: 3613588250837134154}
+  m_Layer: 0
+  m_Name: Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &689973740482610769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689973740482610771}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3659382, y: -3.6794195, z: -5.641611}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &689973740482610770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689973740482610771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63aaf988010d89049b72b9fb79719894, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnState: 0
+  playerPosition: 1
+  playerObjectPrefab: {fileID: 0}
+  playerTurn: {fileID: 0}
+  tilePoolPrefab: {fileID: 11400000, guid: 9f0d471f14b40284e8ff1657d31548dc, type: 2}
+  deck: {fileID: 0}
+  GameEndSplash: {fileID: 8982581297516383719, guid: 8f2b781f33d96bc409ed0e5d6777f1a9, type: 3}
+  enemyLoader: {fileID: 0}
+  activeEnemies: []
+  maxEnergy: 3
+  currentEnergy: 0
+  energyGUI: {fileID: 0}
+  adjCheck: {fileID: 0}
+  tileOptionScreen: {fileID: 0}
+  nextLevelScreen: {fileID: 0}
+  tilesSelectable: 0
+--- !u!114 &8755439803232224380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689973740482610771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387d1f6ee2b502a449b123c604be89c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  running: 0
+--- !u!114 &4792693391258710820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689973740482610771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ded87bc1e694c541ae075452726eccd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3613588250837134154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689973740482610771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15633baf1516f014ab7b63b238ba2328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPools:
+  - {fileID: 11400000, guid: 169374b047a15654abd9132fd74257a3, type: 2}
+  - {fileID: 11400000, guid: 2df8c5513f3f34e4d825d59582326966, type: 2}
+  - {fileID: 11400000, guid: 30e4d89563ac1f34f823b7a9c509ca33, type: 2}
+  - {fileID: 11400000, guid: 85450d1e12730a243aea9965fb893732, type: 2}
+  - {fileID: 11400000, guid: c60faf95635d8b84ab0f8f4df5bc64b2, type: 2}
+  _restSite: {fileID: 1876233761589823241, guid: d7087c83dfd793d44b9ad8b80593eb04, type: 3}
