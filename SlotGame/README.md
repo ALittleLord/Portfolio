@@ -2,7 +2,7 @@
 SlotGame (dev title) is a slot machine based spin on the deck builder genre.\
 It is one of my earliest projects I made and as a result is rough to the point that I would rewrite it probably from scratch if I were to return to it.\
 This project made use of a handful of assets, primarily the use of OdinInspector to make an easy system to create new tiles, decks, and enemies.\
-I have included SlotGame build that can be run to play the game, as well as my project Created Asset folder, and a Created Scripts folder with duplicates of all my scripts in one place.
+I have included SlotGame build that can be run to play the game, as well as most of the scripts I wrote for this project.
 
 ### This project includes:
  - A system in place to easily develop tiles and enemies

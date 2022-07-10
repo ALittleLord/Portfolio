@@ -10,6 +10,9 @@ If you have any questions or comments on any of my projects I would love to hear
 I can be contacted by email at tiernankingzett@gmail.com
 
 ### Project List
+ - Glide - June 2022
+ - Simply Sudoku - Spring 2022 - Released on Android
  - BlueWorld - January 2022
+ - BugGame - December 2021
  - Pinball - Fall/Winter 2021
  - SlotGame - Summer 2021
